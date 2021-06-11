@@ -11,7 +11,7 @@ Ogp ogp = OgpTwitterCardParser.parse(url);
 
 Below show an example scenario to get OGP data from a tweet when a case record's tweet url field value changed.
 
-When you try in your env, you must add Twitter URL (https://twitter.com) to your remove site settings.
+When you try in your env, you must add Twitter URL (https://twitter.com) to your remote site settings.
 
 
 ```
