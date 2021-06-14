@@ -80,14 +80,15 @@ public with sharing class CaseTweetOgpRetriever {
 ### OGP class
 - String title
 - String type
-- Image image
 - String url
-- Audio audio
 - String description
 - String determiner
-- locale
-- siteName
-- Video video
+- String locale
+- String siteName
+- Ogp.Image image
+- Ogp.Video video
+- Ogp.Audio audio
+- Ogp.Twitter twitter
 
 ### OGP.Image class
 - String url
@@ -112,6 +113,13 @@ public with sharing class CaseTweetOgpRetriever {
 - String height
 - String alt
 
+### OGP.Twitter class
+- String card
+- String site
+- String title
+- String image
+- String description
+- String player
 
 ## LICENSE
 Licensed under BSD-3
